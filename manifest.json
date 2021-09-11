@@ -1,0 +1,56 @@
+{
+    "short_name": "Shortcuts",
+    "name": "App Shortcuts Sample",
+    "icons": [
+      {
+        "src": "https://app-shortcuts.glitch.me/assets/small-icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://app-shortcuts.glitch.me/assets/large-icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/?start_url",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "shortcuts": [
+      {
+        "name": "Feel blue",
+        "short_name": "Blue",
+        "url": "/blue?shortcut",
+        "icons": [
+          { "src": "https://app-shortcuts.glitch.me/assets/blue.png", "sizes": "192x192", "type": "image/png" }
+        ]
+      },
+      {
+        "name": "Feel red",
+        "short_name": "Red",
+        "url": "/red?shortcut",
+        "icons": [
+          { "src": "https://app-shortcuts.glitch.me/assets/red.png", "sizes": "192x192", "type": "image/png" }
+        ]
+      },
+      {
+        "name": "Feel yellow",
+        "short_name": "Yellow",
+        "url": "/yellow?shortcut",
+        "icons": [
+          { "src": "https://app-shortcuts.glitch.me/assets/yellow.png", "sizes": "192x192", "type": "image/png" }
+        ]
+      },
+      {
+        "name": "Feel green",
+        "short_name": "Green",
+        "url": "/green?shortcut",
+        "icons": [
+          { "src": "https://app-shortcuts.glitch.me/assets/green.png", "sizes": "192x192", "type": "image/png" }
+        ]
+      }
+    ]
+  }
+  
